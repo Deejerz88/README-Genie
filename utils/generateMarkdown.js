@@ -28,7 +28,12 @@ function generateMarkdown(data, license) {
     .split(";")
     .map((v, i) => `${i + 1}. ${v.trim()}`)
     .join("\n");
-
+  
+  const images = data.images
+    .split(";")
+    .map((v, i) => `\n### Image ${i + 1}\n![](${v.trim()})`)
+    .join("\n");
+  
   return `# ${data.title}
 ## Description
 ${data.description}\n
@@ -37,8 +42,9 @@ ${license.badge}
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contribution](#contribution)
-- [Testing](#test)
+- [Images](#images)
+- [Contribution](#contributing)
+- [Testing](#tests)
 - [Questions](#questions)
 - [License](#license)
 
@@ -47,6 +53,9 @@ ${installation}
 
 ## Usage
 ${data.usage}
+
+## Images
+${images}
 
 ## Contributing
 ${data.contribution}
@@ -57,7 +66,7 @@ ${testing}
 ## Questions
 [My GitHub Profile](https://github.com/${data.github})
 
-If you have any questions about my project, [please contact me here](mailto:${data.email}).
+If you have any questions about my project, please contact me at [${data.email}](mailto:${data.email}).
 
 
 ${license.section}`;

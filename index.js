@@ -26,6 +26,12 @@ const questions = [
     message: "Enter Usage Information",
     name: "usage",
   },
+
+  {
+    type: "input",
+    message: "Enter the paths to images separated by semicolons(;)",
+    name: "images",
+  },
   {
     type: "input",
     message: "Enter Contribution Guidelines",
@@ -69,7 +75,7 @@ function init() {
     const licenseSection = renderLicenseSection(response.license)
     const license = {badge:licenseBadge,section:licenseSection}
     const data = generateMarkdown(response,license);
-    writeToFile("README.md", data);
+    writeToFile("README-generated.md", data);
   });
 }
 

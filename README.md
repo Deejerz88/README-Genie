@@ -1,37 +1,27 @@
-# asdfdsa
+# README GENIE
 ## Description
-sadfasd
-
-!['license'](https://img.shields.io/badge/license-MIT-red)
-
+Generage a Profession README file for your project!
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contribution](#contribution)
-- [Testing](#test)
+- [Images](#images)
 - [Questions](#questions)
-- [License](#license)
 
 ## Installation
-1. adfasdf
-2. sdfasdfa
+1. Clone repo.
+2. Run npm i
 
 ## Usage
-asdfasd
+To use this appliction, simply run "node index.js" and answer the prompts. You can then copy the README-generated.md file to your project and rename it to README.md
 
-## Contribution
-asvasdadf
+## Images
+Image 1
+![](assets/images/Genie-README.png)
 
-## Testing
-1. dsafasdf
-2. asdfadsf
-3. asdfasdf
+Image 2
+![](assets/images/Genie-terminal.png)
 
 ## Questions
 [My GitHub Profile](https://github.com/Deejerz88)
 
-If you have any questions about my project, [please contact me here](mailto:djmcmillan93@gmail.com).
-
-
-## License
-This application is covered under the MIT license
+If you have any questions about my project, please contact me at [djmcmillan93@gmail.com](mailto:djmcmillan93@gmail.com).
