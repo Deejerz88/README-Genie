@@ -4,6 +4,7 @@ Generage a Profession README file for your project!
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
+- [Video](#video)
 - [Images](#images)
 - [Questions](#questions)
 
@@ -14,11 +15,13 @@ Generage a Profession README file for your project!
 ## Usage
 To use this appliction, simply run "node index.js" and answer the prompts. You can then copy the README-generated.md file to your project and rename it to README.md
 
+## Video
+[Example Video](https://drive.google.com/file/d/1lFfhrSuC09w_lPNB7ojaVKkGf7Er2sAK/view "Example Video")
 ## Images
-Image 1
+### Image 1
 ![](assets/images/Genie-README.png)
 
-Image 2
+### Image 2
 ![](assets/images/Genie-terminal.png)
 
 ## Questions
